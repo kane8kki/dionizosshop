@@ -1,13 +1,11 @@
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #1a1a1a;
+body.patagonia-style {
+    font-family: 'Patagonia Sans Regular', sans-serif;
+    background-color: #252525;
     color: #ffffff;
 }
 
 header {
-    background-color: #333333;
+    background-color: #1a1a1a;
     padding: 15px;
 }
 
@@ -23,6 +21,10 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 .product img {
@@ -39,6 +41,7 @@ main {
 .product h1 {
     font-size: 24px;
     margin-bottom: 10px;
+    color: #ffffff;
 }
 
 .product p {
@@ -64,7 +67,7 @@ button {
 }
 
 footer {
-    background-color: #333333;
+    background-color: #1a1a1a;
     padding: 10px;
     text-align: center;
 }
